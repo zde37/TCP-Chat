@@ -1,6 +1,6 @@
 # TCP Chat
 
-Welcome to the TCP Chat repository! This project showcases a robust and scalable TCP-based chat server built using Go, offering a unique approach to real-time communication over the traditional WebSockets protocol.
+Welcome to TCP Chat repository! This project showcases a robust and scalable TCP-based chat server built using Go, offering a unique approach to real-time communication over the traditional WebSockets protocol.
 
 ## Available features
 - **Room-based Chat**: Organize conversations into specific rooms, enhancing topic-focused discussions.
@@ -11,16 +11,22 @@ Welcome to the TCP Chat repository! This project showcases a robust and scalable
 
 - **Graceful Handling**: Proper client disconnection and error handling for a smooth user experience.
 
-## Upcoming features
-- User Authentication
-- Private messaging
-- Lobby
-- Message history
-- File transfer
-- Search functionality
-- End-To-End Encryption
-- Rate limiting
-- User moderation tools
+## Further Improvements
+This TCP chat application can be further enhanced with features such as:
+
+- **Private Messaging**: Allow users to send private messages to other users.
+
+- **Message History**: Store and retrieve chat history for users joining a room.
+
+- **User Authentication**: Implement user authentication for added security.
+
+- **File Transfer**: Enable users to share files within chat rooms.
+
+- **Web Interface**: Create a web-based interface for easier access and usability.
+ 
+- **Additional**: Lobby, Search functionality, End-To-End Encryption, Rate limiting, Moderation tools.
+
+We encourage contributions to enhance the functionality and user experience of this application. Please feel free to fork the repository, make improvements, write proper tests and submit pull requests.
 
 ## Benefits
 
@@ -48,7 +54,7 @@ While WebSockets are excellent for integrating real-time communication into web 
 
 ### Prerequisites
 
-- Go (version 1.18 or later) 
+- Make sure you have 'Golang' installed and properly set up on your machine.
 
 ### Installation
 
@@ -106,7 +112,7 @@ While WebSockets are excellent for integrating real-time communication into web 
 
 1. Fork the repository.
 2. Create a new branch: git checkout -b my-feature
-3. Make your changes and commit them: git commit -m 'Add some feature'
+3. Make your changes, write proper tests and commit them: git commit -m 'Add some feature'
 4. Push to the branch: git push origin my-feature
 5. Open a pull request.
 6. Don't forget to star the repository and tell people about it.
